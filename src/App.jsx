@@ -7,6 +7,7 @@ import Fragmento from './components/basicos/Fragmento';
 import ComParamentro from './components/basicos/ComParametro';
 import Primeiro from './components/basicos/Primeiro';
 import Card from './components/layout/Card';
+import ListaAlunos from './components/repeticao/ListaAlunos';
 
 const App = () => (
 
@@ -15,6 +16,12 @@ const App = () => (
         <h1>Fundamentos React</h1>
 
         <div className='Cards'>
+
+            <Card titulo="#06 - Repeticao" color="#FF4C65">
+                <ListaAlunos>
+
+                </ListaAlunos>
+            </Card>
 
             <Card titulo="#05 - Componente com Filhos" color="#00C8F8">
                 <Familia sobreNome="de Castro" >

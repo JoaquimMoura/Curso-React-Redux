@@ -1,6 +1,6 @@
 function Aleatorio(params) {
 
-    const { max, min, test } = params;
+    const { max, min } = params;
 
     const aleatorio = parseInt(Math.random() * (max - min)) + min;
 
