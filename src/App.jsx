@@ -10,6 +10,7 @@ import Card from './components/layout/Card';
 import ListaAlunos from './components/repeticao/ListaAlunos';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
+import UsuarioInfo from './components/condicional/UsuarioInfo';
 
 const App = () => (
 
@@ -21,6 +22,7 @@ const App = () => (
 
             <Card titulo="#08 - Renderizacao Condicional" color="#982395">
                 <ParOuImpar numero={21}/>
+                <UsuarioInfo usuario={{nome : 'Fernando', email: 'fer@nando.com' }}/>
             </Card>
 
             <Card titulo="#07 - Desafio Repeticao" color="#FF432E">
