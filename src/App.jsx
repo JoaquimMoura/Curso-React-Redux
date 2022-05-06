@@ -8,6 +8,7 @@ import ComParamentro from './components/basicos/ComParametro';
 import Primeiro from './components/basicos/Primeiro';
 import Card from './components/layout/Card';
 import ListaAlunos from './components/repeticao/ListaAlunos';
+import TabelaProdutos from './components/repeticao/TabelaProdutos';
 
 const App = () => (
 
@@ -17,10 +18,12 @@ const App = () => (
 
         <div className='Cards'>
 
+            <Card titulo="#07 - Desafio Repeticao" color="#FF432E">
+                <TabelaProdutos />
+            </Card>
+            
             <Card titulo="#06 - Repeticao" color="#FF4C65">
-                <ListaAlunos>
-
-                </ListaAlunos>
+                <ListaAlunos />
             </Card>
 
             <Card titulo="#05 - Componente com Filhos" color="#00C8F8">

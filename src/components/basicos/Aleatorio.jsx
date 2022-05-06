@@ -6,6 +6,7 @@ function Aleatorio(params) {
 
     return (
         <div>
+            <h2>Desafio Aleatorio</h2>
             <p>
                 <strong> Valor Maximo: {max} </strong><br />
                 <strong> Valor Minimo: {min} </strong><br />
