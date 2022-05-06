@@ -9,6 +9,7 @@ import Primeiro from './components/basicos/Primeiro';
 import Card from './components/layout/Card';
 import ListaAlunos from './components/repeticao/ListaAlunos';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
+import ParOuImpar from './components/condicional/ParOuImpar';
 
 const App = () => (
 
@@ -18,10 +19,14 @@ const App = () => (
 
         <div className='Cards'>
 
+            <Card titulo="#08 - Renderizacao Condicional" color="#982395">
+                <ParOuImpar numero={21}/>
+            </Card>
+
             <Card titulo="#07 - Desafio Repeticao" color="#FF432E">
                 <TabelaProdutos />
             </Card>
-            
+
             <Card titulo="#06 - Repeticao" color="#FF4C65">
                 <ListaAlunos />
             </Card>
