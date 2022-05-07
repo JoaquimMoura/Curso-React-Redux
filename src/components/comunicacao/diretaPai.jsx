@@ -1,4 +1,4 @@
-import DiretaFilho from "./diretaFilho";
+import DiretaFilho from "./DiretaFilho";
 
 const DiretaPai = (parans) => {
 

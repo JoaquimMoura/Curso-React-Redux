@@ -11,7 +11,8 @@ import ListaAlunos from './components/repeticao/ListaAlunos';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
-import DiretaPai from './components/comunicacao/diretaPai';
+import DiretaPai from './components/comunicacao/DiretaPai';
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 
 const App = () => (
 
@@ -21,8 +22,12 @@ const App = () => (
 
         <div className='Cards'>
 
+            <Card titulo="#010 - Comunicacao Indireta" color="#8BAD39">
+                <IndiretaPai ></IndiretaPai>
+            </Card>
+
             <Card titulo="#09 - Comunicacao Direta" color="#59323C">
-                <DiretaPai></DiretaPai>
+                <DiretaPai />
             </Card>
 
             <Card titulo="#08 - Renderizacao Condicional" color="#982395">
