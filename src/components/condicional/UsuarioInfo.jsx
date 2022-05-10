@@ -2,8 +2,6 @@ import If, { Else } from './If'
 
 const UsuarioInfo = (params) => {
 
-    console.log(params);
-
     const usuario = params.usuario || {}
 
     return (
