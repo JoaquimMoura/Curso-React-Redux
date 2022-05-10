@@ -1,0 +1,18 @@
+.Mega label {
+margin-right: 10px;
+}
+
+.Mega input {
+    font-size: 1.4rem;
+    width: 50px;
+}
+
+.Contador button {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.741);
+    font-size: 1.4rem;
+    color: #fff;
+}
